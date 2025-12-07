@@ -1,0 +1,351 @@
+
+@font-face {
+    font-family: 'quart';
+     src: url('QuartzoBold-W9lv.ttf') format(truetype);
+      font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+    font-family: 'brook';
+     src: url('CassandraPersonalUseRegular-3BjG.ttf') format(truetype);
+      font-weight: normal;
+      font-style: normal;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+
+.aboutTitulo{
+font-family: quart;
+text-align: center;
+}
+
+.aboutSubti{
+    font-family: 'Times New Roman', Times, serif;
+margin-top: 20px;
+margin-bottom: 0;
+margin-right: 5px;
+}
+
+.aboutTexto{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mapas{
+    aspect-ratio: 2048/1536;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.dec{
+    background-color: rgb(109, 109, 180);
+        border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.pgAbout{
+    background-color: rgb(73, 73, 122);
+}
+
+.pagina {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100%;
+}
+
+.botoes {
+    position: fixed;
+    right: 2%;
+    top: 0%;
+    color: black;
+}
+  
+.linksMenu {
+    background-color: rgb(255, 0, 0);
+    aspect-ratio: 2/1;
+    margin-top: 5px;
+    margin-right: 3px;
+    padding: 0px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    border-style: solid;
+    font-family: "quart";
+    color: rgb(0, 0, 0);
+}
+
+.vdKanaria {
+   aspect-ratio: 1118/682;
+    margin-top: 10px;
+}
+
+.pgKanaria{
+background: url('kanariaBG.png');
+    background-size: cover;
+}
+
+.tituloKa{
+font-family: "quart";
+font-size: 100px;
+color: red;
+text-align: center;
+ -webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color:rgba(84, 60, 50);
+}
+
+    .nomeKa {
+     font-family: "quart";
+font-size: 20px;
+color: red;
+margin-left: 10px;
+margin-bottom: -8px;
+    }
+
+  @media (min-width: 768px) {
+    .nomeKa {
+      font-family: "quart";
+font-size: 25px;
+color: rgb(255, 0, 0);
+margin-left: 15px;
+margin-bottom: -12px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .nomeKa {
+      font-family: "quart";
+font-size: 30px;
+color: rgb(255, 0, 0);
+margin-left: 30px;
+margin-bottom: -15px;
+    }
+  }
+
+.textoKa{
+font-family: "quart";
+color: rgb(255, 0, 0);
+margin-left: 20px;
+}
+
+.mili1{
+    background-color: rgba(89, 66, 24);
+}
+
+.fundoMili{
+    background: url('To_Kill_A_Living_Book.jpg');
+    background-size: cover;
+    aspect-ratio: 1280/720;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.miliVideo{
+    aspect-ratio: 327/1715;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    border-style: solid;
+    margin: 0px;
+    padding: 0px;
+}
+
+.listaMili{
+    font-family: "quart";
+}
+
+.tituloMili{
+    padding-top: 30px;
+font-family: "brook";
+font-size: 60px;
+color: rgb(14, 0, 136);
+ -webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color:rgb(14, 1, 71); 
+}
+
+.introMili{
+    font-family: "brook";
+font-size: 18px;
+color: rgb(255, 255, 255);
+}
+
+
+.corpo {
+    margin: 0;
+    padding: 0;
+}
+
+.imgBtn {
+    border-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    margin: 10px;
+    background: url('place.png');
+    background-size: cover;
+}
+
+.botaoIntroR{
+    margin-top: 30px;
+    margin-bottom: 20px;
+aspect-ratio: 740/430;
+background-image: url("InicioR1.png");
+background-size: contain;
+}
+
+.botaoIntroL{
+    margin-top: 30px;
+    margin-bottom: 20px;
+aspect-ratio: 740/430;
+background-image: url("InicioL1.png");
+background-size: contain;
+}
+
+.botaoKanariaR{
+    margin-top: 30px;
+    margin-bottom: 20px;
+aspect-ratio: 740/430;
+background-image: url("KanariaR1.png");
+background-size: contain;
+}
+
+.botaoKanariaL{
+    margin-top: 30px;
+    margin-bottom: 20px;
+aspect-ratio: 740/430;
+background-image: url("KanariaL1.png");
+background-size: contain;
+}
+
+.botaoMiliR{
+    margin-top: 30px;
+    margin-bottom: 20px;
+aspect-ratio: 740/430;
+background-image: url("MiliR1.png");
+background-size: contain;
+}
+
+.botaoMiliL{
+    margin-top: 30px;
+    margin-bottom: 20px;
+aspect-ratio: 740/430;
+background-image: url("MiliL1.png");
+background-size: contain;
+}
+
+.botaoEnd{
+    margin-top: 30px;
+    margin-bottom: 20px;
+aspect-ratio: 740/430;
+background-image: url("End1.png");
+background-size: contain;
+}
+
+.tranKaMili{
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(89, 66, 24));
+}
+
+.tranIntroKa{
+    background-image: linear-gradient(to bottom, rgb(73, 73, 122), rgb(0, 0, 0));
+}
+
+.tranMiliEnd{
+    background-image: linear-gradient(to bottom, rgba(89, 66, 24), rgb(73, 73, 122));
+}
+
+
+#videoKa1 {
+    background: url('kanaria1.gif');
+    background-size: cover;
+}
+
+#videoKa2 {
+    background: url('kanaria2.gif');
+    background-size: cover;
+}
+
+#videoKa3 {
+    background: url('kanaria3.gif');
+    background-size: cover;
+}
+
+#videoKa4 {
+
+    background: url('kanaria4.gif');
+    background-size: cover;
+}
+
+#videoKa5 {
+    background: url('kanaria5.gif');
+    background-size: cover;
+}
+
+#videoMili1{
+    background: url('Book\ String.png');
+    background-size: cover;
+}
+#videoMili2{
+    background: url('Book\ Angels.png');
+    background-size: cover;
+}
+#videoMili3{
+    background: url('Book\ Machine.png');
+    background-size: cover;
+}
+#videoMili4{
+    background: url('Book\ City.png');
+    background-size: cover;
+}
+#videoMili5{
+    background: url('Book\ Love.png');
+    background-size: cover;
+}
+#videoMili6{
+    background: url('Book\ Lotus.png');
+    background-size: cover;
+}
+
+#videoMili7{
+    background: url('Fluf.png');
+    background-size: cover;
+}
+#videoMili8{
+    background: url('Hero.png');
+    background-size: cover;
+}
+#videoMili9{
+    background: url('Compass.png');
+    background-size: cover;
+}
+#videoMili10{
+    background: url('Oblivion.png');
+    background-size: cover;
+}
+#videoMili11{
+    background: url('Peach.png');
+    background-size: cover;
+}
+#videoMili12{
+    background: url('Violet.png');
+    background-size: cover;
+}
+
+
+a:link {
+  color: red;
+
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+  color: rgb(114, 24, 24);
+
+}
